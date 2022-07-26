@@ -1,0 +1,38 @@
+.contact{
+	background: #8067f0eb;
+	width: 64%;
+	margin: 100px auto;
+	padding: 70px 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	border-radius: 12px;
+	background-image: url(../img/intro.png);
+	background-size: cover;
+}
+.center h3{
+	font-size: 30px;
+	font-weight: 500;
+	color: var(--bg-color);
+	text-align: center;
+}
+
+.contact-list a{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: rgb(49, 22, 230);
+	font-size: 25px;
+	color: var(--bg-color);
+	margin-right: 22px;
+	margin-top: 20px;
+}
+.contact-list a:hover{
+	transform: scale(1.1);
+	background: var(--main-color);
+	transition: .5s;
+}
